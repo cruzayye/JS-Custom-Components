@@ -3,8 +3,10 @@
 class singleCharacter extends HTMLElement {
   set character(character) {
     this.innerHTML = `
-    <h2>${character.name}</h2>
-    <img src='${character.image}' />
+    <a href='${character.url}'>
+      <h2>${character.name}</h2>
+      <img src='${character.image}' />
+    </a>
     `
   }
 }
