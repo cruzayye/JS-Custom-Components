@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+}
+
+main {
+  width: 90vw;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
